@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wanton/ls_max/dir_utilities/dir_utilities.h
+stdlib.h
+-
+file_utilities/file_utilities.h
+/Users/wanton/ls_max/dir_utilities/file_utilities/file_utilities.h
+../lib/libft.h
+/Users/wanton/ls_max/lib/libft.h
+
+/Users/wanton/ls_max/dir_utilities/file_utilities/file_utilities.h
+sys/stat.h
+-
+stdlib.h
+-
+../../lib/libft.h
+/Users/wanton/ls_max/lib/libft.h
+
+/Users/wanton/ls_max/ft_ls.h
+stdio.h
+-
+stdlib.h
+-
+lib/libft.h
+/Users/wanton/ls_max/lib/libft.h
+dir_utilities/dir_utilities.h
+/Users/wanton/ls_max/dir_utilities/dir_utilities.h
+
+/Users/wanton/ls_max/lib/libft.h
+string.h
+-
+
+/Users/wanton/ls_max/main.c
+ft_ls.h
+/Users/wanton/ls_max/ft_ls.h
+
